@@ -1,5 +1,5 @@
 .hero p {
-  font-family: poppins;
+  font-family: var(--default-heading);
   font-weight: bold;
   font-size: 36px;
   color: rgb(39, 33, 66);
@@ -9,8 +9,8 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
-h2 {
-  font-family: poppins;
+.hero h2 {
+  font-family: var(--default-heading);
   font-weight: normal;
   font-size: 24px;
 }
@@ -25,4 +25,10 @@ h2 {
   text-align: center;
   background-color: rgb(249, 247, 254);
   padding: 130px 10px;
+}
+:root {
+  --default-heading: poppins;
+}
+h2 {
+  font-family: var(--default-heading);
 }
