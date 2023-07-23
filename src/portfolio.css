@@ -65,3 +65,30 @@ p {
   font-style: normal;
   line-height: normal;
 }
+.contact-me {
+  color: #6c63ff;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+.email {
+  color: black;
+  font-family: var(--default-heading);
+  font-size: 24px;
+  font-weight: 500px;
+  font-style: normal;
+  line-height: normal;
+}
+.inquiry {
+  color: black;
+  font-family: var(--secondary-heading);
+  font-size: 48px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700px;
+}
+.learn-more {
+  display: flex;
+  justify-content: space-evenly;
+}
