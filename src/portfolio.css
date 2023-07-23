@@ -32,3 +32,26 @@ h1 {
 h2 {
   font-family: var(--default-heading);
 }
+p {
+  color: rgba(39 33 66 0.7);
+  font-family: var(--default-heading);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 30px;
+  font-style: normal;
+}
+.yorghurt {
+  padding: 160px 0;
+}
+.view-detail {
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  text-align: center;
+  font-family: var(--default-heading);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 12px 8px;
+}
