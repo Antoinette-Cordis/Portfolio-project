@@ -5,7 +5,7 @@
   color: rgb(39, 33, 66);
 }
 h1 {
-  font-family: playfair display;
+  font-family: var(--secondary-heading);
   font-weight: bold;
   font-size: 96px;
 }
@@ -13,6 +13,10 @@ h1 {
   font-family: var(--default-heading);
   font-weight: normal;
   font-size: 24px;
+  font-weight: 400px;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
 }
 .btn-branding {
   background: rgb(108, 99, 255);
@@ -28,10 +32,9 @@ h1 {
 }
 :root {
   --default-heading: poppins;
+  --secondary-heading: playfair display;
 }
-h2 {
-  font-family: var(--default-heading);
-}
+
 p {
   color: rgba(39 33 66 0.7);
   font-family: var(--default-heading);
@@ -41,7 +44,7 @@ p {
   font-style: normal;
 }
 .yorghurt {
-  padding: 160px 0;
+  padding: 180px 10px;
 }
 .view-detail {
   border: 1px solid #6c63ff;
@@ -54,4 +57,11 @@ p {
   line-height: normal;
   text-decoration: none;
   padding: 12px 8px;
+}
+.weather {
+  font-family: var(--secondary-heading);
+  font-size: 64px;
+  font-weight: 700px;
+  font-style: normal;
+  line-height: normal;
 }
