@@ -88,3 +88,7 @@ p {
   line-height: normal;
   font-weight: 700px;
 }
+.contact-us {
+  background-color: rgb(249, 247, 254);
+  margin: 10px 140px;
+}
