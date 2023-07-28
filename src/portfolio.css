@@ -9,7 +9,8 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
-h3 {
+h3,
+h4 {
   font-family: var(--secondary-heading);
   font-size: 64px;
   font-weight: bold;
@@ -102,4 +103,8 @@ p {
 .contact-us {
   background-color: rgb(249, 247, 254);
   margin: 10px 140px;
+}
+.contact {
+  padding: 47px 15px;
+  text-align: center;
 }
